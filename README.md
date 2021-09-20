@@ -9,6 +9,8 @@ A *clause* is either a literal, or `(L1 \/ L2)`, or `(L1 -> L2)`, where `L1` and
 Finally, the *2-CNF* is either one clause or a conjunction of two or more clauses, where conjunction is
 denoted by `/\`.
 
+Example: `p /\ (p -> q) /\ (p -> ~r) /\ (~r \/ ~s) /\ (s \/ ~q)`
+
 The *first* task is to check whether the given 2-CNF is satisfiable. The *second* task is, given a 2-CNF,
 report that it is not satisfiable or return one of its satisfying assignments. Solving only the first task
 gives you a half grade (2 points out of 4). Solving both gives 4 points.
@@ -25,7 +27,8 @@ if the 2-CNF is not satisfiable.
 
 ### Practical Info
 
-The preferable way to submit the assignment is via GitHub classroom (invite link available on course webpage).
+The preferable way to submit the assignment is via GitHub classroom, invite link available on 
+[course webpage](https://homepage.mi-ras.ru/~sk/lehre/dm_hse/).
 After submitting, you shall see the results of automated testing, which will be used for grading.
 As a fallback, it is also possible to submit via email to <sk@mi-ras.ru>. The same address may be used for 
 asking questions. 
