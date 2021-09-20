@@ -25,10 +25,14 @@ a function called `sat_assignment`. This function also takes one argument (strin
 array (dictionary) with the satifying assignment (e.g., `{ 'p': True, 'q': False, 'r': True }`) or `None`,
 if the 2-CNF is not satisfiable.
 
+**Warning:** the automatic tests run several iterations of your functions, with different CNFs.
+If you use global variables, please make sure that their values from previous iterations do not 
+make the next one work incorrectly.
+
 ### Practical Info
 
-The preferable way to submit the assignment is via GitHub classroom, invite link available on 
-[course webpage](https://homepage.mi-ras.ru/~sk/lehre/dm_hse/).
+The preferable way to submit the assignment is via GitHub classroom, [invite link](https://classroom.github.com/a/ZRHmjSA-),
+see also [course webpage](https://homepage.mi-ras.ru/~sk/lehre/dm_hse/) for details.
 After submitting, you shall see the results of automated testing, which will be used for grading.
 As a fallback, it is also possible to submit via email to <sk@mi-ras.ru>. The same address may be used for 
 asking questions. 
