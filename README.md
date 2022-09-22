@@ -37,7 +37,7 @@ After submitting, you shall see the results of automated testing, which will be 
 As a fallback, it is also possible to submit via email to <sk@mi-ras.ru>. The same address may be used for 
 asking questions. 
 
-The deadline is **October 5, 2021** anywhere-on-Earth, and it is **strict**. If you know you will not be able
+The deadline is **October 12, 2022** anywhere-on-Earth, and it is **strict**. If you know you will not be able
 to finish the task before the deadline, please inform **in advance**.
 
 **Cheating will not be tolerated.** 
